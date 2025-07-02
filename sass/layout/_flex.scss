@@ -1,0 +1,17 @@
+.section-about__columns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &-text-column{
+
+        flex: 1;
+
+    }
+
+    &-image-column{
+
+        flex: 1;
+        
+    }
+}
