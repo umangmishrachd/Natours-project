@@ -1,0 +1,12 @@
+# Ignore compiled CSS files inside sass/ folder
+sass/**/*.css
+
+# Ignore node_modules folder (common for all Node projects)
+node_modules/
+
+# Ignore system or editor files
+.DS_Store
+Thumbs.db
+
+# Ignore compiled CSS maps (if generated)
+css/**/*.map

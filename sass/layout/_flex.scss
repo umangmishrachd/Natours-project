@@ -1,17 +1,33 @@
-.section-about__columns{
+.section-about__columns {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-end;
+    gap: 5rem;
+    padding: 0 15rem;
 
-    &-text-column{
+
+
+    .section-about-text-column {
 
         flex: 1;
+        flex-shrink: 0;
+        min-width: 20rem;
 
     }
 
-    &-image-column{
+    .section-about-image-column {
 
         flex: 1;
-        
+        flex-shrink: 0;
+        min-width: 20rem;
+
     }
+
+    // .section-about-image-column:first-child{
+    //     justify-content: flex-start;
+    //     margin-left: 4rem;
+    //     color: aqua;
+
+    // }
 }
+
+
