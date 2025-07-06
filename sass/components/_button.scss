@@ -24,8 +24,25 @@
         &::after {
         background-color: $color-white;
     }
+    
 
     }
+
+
+    &--orange {
+        background: linear-gradient(to right bottom, $color-ternary-light, $color-ternary-dark);
+        color: $color-white;
+
+        &::after {
+        background-color: $color-ternary-dark;
+    }
+    
+
+    }
+
+
+
+
 
     &:active {
         transform: translateY(-1px);

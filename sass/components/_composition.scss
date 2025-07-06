@@ -35,7 +35,7 @@
         }
 
         &:hover {
-            outline: 1.5rem solid $color-primary;
+            outline: 1.5rem solid $color-ternary-dark;
             transform: scale(1.1) translateY(-1.5rem);
             box-shadow: 0 2.5rem 4rem rgba($color-black, .5);
             z-index: 20;
